@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPaneTo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="Type" layoutX="28.0" layoutY="10.0" prefHeight="46.0" prefWidth="542.0" style="-fx-background-color: #533e5a; -fx-background-radius: 20;" text="Từ đang học" textFill="#b02fc1">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Line endX="511.800048828125" endY="0.4000053405761719" layoutX="57.0" layoutY="60.0" startX="-28.999984741210938" startY="0.4000053405761719" />
+      <AnchorPane fx:id="anchorPane" layoutX="14.0" layoutY="71.0" prefHeight="480.0" prefWidth="580.0">
+         <children>
+            <Button fx:id="finalTestBTN" layoutX="101.0" layoutY="334.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="379.0" text="Kiểm tra">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="ghepThe" layoutX="338.0" layoutY="95.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="138.0" text="Ghép thẻ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="Echtuvung" layoutX="338.0" layoutY="213.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="138.0" text="Sắp xếp từ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="Hoc" layoutX="101.0" layoutY="89.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="138.0" text="Học">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="tracNghiemBTN" layoutX="101.0" layoutY="213.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="138.0" text="Trắc nghiệm">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

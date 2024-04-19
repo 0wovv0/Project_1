@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contentAnchorPane" maxHeight="555.0" maxWidth="780.0" prefHeight="555.0" prefWidth="780.0" style="-fx-background-radius: 20; -fx-background-color: #ADEBAD;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="196.0" layoutY="182.0" prefHeight="78.0" prefWidth="399.0" text="Phạm Việt Hùng 20215390" textFill="#b618bc">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="249.0" prefHeight="78.0" prefWidth="399.0" text="Khoa học máy tính 03 - K66" textFill="#b618bc">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
